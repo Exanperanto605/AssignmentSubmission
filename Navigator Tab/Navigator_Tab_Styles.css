@@ -1,0 +1,96 @@
+ul {
+    background-color: #2F2F2F;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    
+}
+
+li {
+    float: left;
+}
+  
+li a {
+    display: block;
+    padding: 8px;
+    color: #dddddd;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #C3C3C3;
+    transition: 0.3s;
+    color: black;
+}
+
+.tab_style {
+    overflow: hidden;
+    background-color: #63AEff;
+}
+
+.tab_style button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    color: #ffffff;
+    font-weight: 700;
+}
+
+.tab_style button:hover {
+    background-color: #8cc3fe;
+    color: #2F2F2F;
+}
+
+.tab_style button.active {
+    background-color: #8cc3fe;
+}
+
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    background-color: #8cc3fe;
+    font-size: 14px;
+    color: white;
+    border-top: none;
+}
+
+.topright {
+    float: right;
+    cursor: pointer;
+    font-size: 28px;
+}
+
+.topright:hover {
+    color: red;
+}
+
+/* My old approach on the navigation bar
+.tabstyle {
+    background-color: #2F2F2F;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    float: left;
+    cursor: pointer;
+    padding: 10px 20px;
+    font-size: 20px;
+    width: 25%;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.tabstyle_hover {
+    background-color: #C3C3C3;
+    color: black;
+}
+*/
